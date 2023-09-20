@@ -12,3 +12,4 @@
 * `git clone https://github.com/tanvir-eVa/vempier.git` 
 * `cd vempier `
 * `node indax.js`
+<b>Thanks for support us</b>
