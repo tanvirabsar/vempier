@@ -2,7 +2,7 @@
 <img src="">
 <br>
 <h4>Installation for Termux:</h4>
-<p>note: </p>
+<p><b>note:  </b>  use it only Educational purposes</p>
 
 * `pkg update` 
 * `pkg upgrade -y` 
