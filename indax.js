@@ -6,9 +6,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use(express.static('fontend'));
+app.use(express.static('addfriend'));
 
 app.get('/',(req,res)=>{
- res.send("hello")
+ res.sendFile(__dirname + "/addfriend/indax.html");
 })
 
 app.get('/login',(req,res)=>{
