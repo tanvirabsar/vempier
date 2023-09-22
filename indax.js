@@ -6,6 +6,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use(express.static('fontend'));
+
+app.get('/',(req,res)=>{
+ res.send("hello")
+})
+
 app.get('/login',(req,res)=>{
  res.sendFile(__dirname + "/fontend/indax.html");
 });
