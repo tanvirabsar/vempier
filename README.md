@@ -11,7 +11,6 @@
 * `pkg upgrade -y` 
 * `pkg install git -y`
 * `pkg install nodejs` 
-* `cd $HOME` 
 * `git clone https://github.com/tanvir-eVa/vempier.git` 
 * `cd vempier `
 * `node indax.js`
