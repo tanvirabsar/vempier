@@ -32,5 +32,5 @@ app.on('connection',()=>{
 });
 
 app.listen(3000,()=>{
-  console.log('main link: http://localhost:3000/login');
+  console.log('main link: http://localhost:3000');
 });
