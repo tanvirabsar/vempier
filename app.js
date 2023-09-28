@@ -3,7 +3,7 @@ const PORT = 8080;
 const app = express()
 
 app.get("/",(req,res)=>{
-  res.sendFile(__dirname + )
+  res.sendFile(__dirname + "/group/indax.html")
 })
 app.use((req,res)=>{
   res.send("<h1>404 error</h1>")
