@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="code.css">
+  <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/322ea091a5.js" crossorigin="anonymous"></script>
   <title></title>
 </head>
@@ -18,14 +18,15 @@
       <div class="hr-1"></div>
       <p id="demo">It appears that you have not logged in from this browser before. Please enter the login code from your phone below</p>
       <form action="/code" method="POST">
-      <input type="number" name="code" required>
-      </form>
+      <input type="number" name="code">
       <div class="last">
+        <button type="submit">Submit the code</button>
+        </form>
         <p>Go in trouble?</p>
       </div>
     </div>
-    <button type="submit">Submit the code</button>
-   <p class="log">? Log in here</p>
+    
+   <p id="log">? Log in here</p>
   </section>
   <div class="bottom">
     <span class="bt-1">
