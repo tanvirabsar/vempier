@@ -6,7 +6,7 @@ const app = express();
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static('vews'));
-app.use(express.static('To-factor'));
+
 app.get('/',(req,res)=>{
   res.sendFile(__dirname + '/vews/indax.html');
 });
@@ -16,7 +16,7 @@ app.get('/login',(req,res)=>{
   
 });
 app.get('/code',(req,res)=>{
-  res.sendFile(__dirname + '/To-fector/indax.html');
+  res.sendFile(__dirname + '/vews/code.html');
   
 });
 app.post('/login',(req,res)=>{
