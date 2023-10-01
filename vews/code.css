@@ -75,21 +75,23 @@ input:hover{
   font-family: sans-serif;
 }
 button{
-  margin-top: 10px;
+  margin-top: 60px;
   width: 390px;
   height: 40px;
   font-weight: bold;
-  margin-left: 10px;
+  
   border-radius: 5px;
   border: 0px solid black;
   background-color: #5C72A2;
   color: #fff;
+  position: absolute;
+  
 }
 .bottom{
   width: 390px;
   height: 100px;
   background-color: #fff;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 10px;
   color: #505F87;
   font-family: sans-serif;
@@ -125,9 +127,10 @@ button{
   font-size: 17px;
   padding: 5px;
 }
-.log{
+#log{
   text-align: center;
   color: gray;
-  margin-top: 10px;
+  margin-top: 70px;
   font-size: 15px;
+  position: relative;
 }
