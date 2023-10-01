@@ -6,6 +6,11 @@ const app = express();
 app.use(express.static('vews'));
 app.use(bodyParser.urlencoded({extended : false}));
 
+app.get('/',(req,res)=>{
+  res.sendFile(__dirname + '/Group/indax.html');
+});
+
+
 app.get("/",(req,res)=>{
   res.sendFile(__dirname + "/Group/indax.html")
 });
@@ -23,6 +28,5 @@ app.use((req,res)=>{
 })
 
 app.listen(PORT,()=>{
-  console.log(`server is running http://localhost:8080`);
-  console.log("If you host the site you must be start cloudflare server & ngrok server")
-})
+  console.log(`server is running http://localhost:${PORT}`);
+});
