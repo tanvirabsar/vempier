@@ -2,127 +2,132 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: sans-serif;
 }
-.box-1 .nav{
-  height: 40px;
-  width: 100%;
+body{
+  background-color: #DEDFE3;
+}
+header{
+  height: 47px;
+  background-color: #3B5998;
+}
+header h1{
+  color: #fff;
+  text-align: center;
+  font-family: verdana;
+  font-size: 25px;
+  padding: 5px;
+}
+section .main{
+  height: 220px;
+  width: 390px;
   background-color: #fff;
-  position: fixed;
-}
-.nav a{
-  color: black;
-}
-.nav #icon-1{
+  border-radius: 5px;
   margin-top: 10px;
-  margin-left: 5px;
-  font-size: 20px;
-  color: black;
-}
-
-.nav h4{
-  margin-left: 50px;
-  margin-top: -25px;
-  
-}
-.nav #icon-2{
-  margin-left: 370px;
-  margin-top: -20px;
-  position: absolute;
-}
-/* nav end */
-.cover-1{
-  height: 190px;
-  width: 100%;
-  background-color: #D2D2D2;
-}
-.cover-1 #cover-pic{
-  height: 140px;
-  width: 140px;
-  margin-top: 70px;
-  position: absolute;
-  border-radius: 80px;
-  margin-left: 10px;
-  border: 4px solid #fff;
-  margin-top: 100px;
-}
-.cover-1 h2{
-  margin-top: 235px;
   margin-left: 10px;
 }
-.cover-1 p{
+.main .nav{
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-top: -5px;
   margin-left: 10px;
+  color: #565656;
 }
-/* add friend section;*/
-
-.main #myBtn{
-  height: 35px;
-  width: 140px;
-  margin-top: 135px;
-  margin-left: 10px;
-  background-color: #057EFF;
-  border: none;
-  border-radius: 4px;
-  font-weight: bold;
-  color: white;
+.hr-1{
+  height: 0.5px;
+  width: 390px;
+  background-color: #A2A2A2;
+  margin-top: 10px;
+}
+#demo{
+  margin: 10px;
   font-size: 15px;
+  font-family: Arial;
+  margin-left: 20px;
 }
-.main #myBtn2{
-  height: 35px;
-  width: 140px;
-  border: none;
-  font-weight: bold;
-  font-size: 15px;
-  border-radius: 4px;
-  margin-left: 8px;
+input{
+  width: 200px;
+  margin-left: 20px;
+  outline: black;
+  height: 28px;
 }
-.main #myBtn3{
-  height: 35px;
-  width: 40px;
-  border: none;
-  margin-top: 135px;
+input:hover{
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 5px;
+}
+.last{
+  height: 50px;
+  width: 390px; 
+  margin-top: 27px;
+  background-color: #F5F6F8;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-style: 13px;
+}
+.last p{
+  color: #375386;
+  margin-top: 15px;
+  margin-left: 150px;
   position: absolute;
-  margin-left: 10px;
-  border-radius: 4px;
-}
-.bio i{
-  color: #848593;
-  margin-left: 10px;
-}
-.bio p{
-  line-height: 40px;
-  margin-left: 50px;
-  margin-top: -30px;
-}
-.dot p{
-  color: gray;
-  font-size: 15px;
-}
-.dot #dot{
-  background-color: grey;
-  color: white;
-  border-radius: 50%;
   font-size: 13px;
+  font-family: sans-serif;
+}
+button{
+  margin-top: 10px;
+  width: 390px;
+  height: 40px;
+  font-weight: bold;
   margin-left: 10px;
-  padding: 2px;
-  margin-top: 20px;
+  border-radius: 5px;
+  border: 0px solid black;
+  background-color: #5C72A2;
+  color: #fff;
 }
-.dot p{
-  margin-top: -25px;
-  margin-left: 40px;
-  position: relative;
-}
-.btm span{
-  position: relative;
-}
-.btm h4{
+.bottom{
+  width: 390px;
+  height: 100px;
+  background-color: #fff;
+  margin-top: 30px;
   margin-left: 10px;
-  position: relative;
+  color: #505F87;
+  font-family: sans-serif;
 }
-.btm a{
-  text-decoration: none;
-  margin-top: -15px;
-  margin-left: 340px;
-  color: #2070BA;
+.bt-1{
   position: absolute;
+  margin-left: 180px;
+  margin-top: 10px;
+  line-height: 20px;
+  font-size: 13px;
+}
+.bt-2{
+  margin-left: 250px;
+  position: absolute;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.bt-1 p{
+  text-align: center;
+  margin-left: -150px;
+ 
+}
+.bt-2 p{
+  text-align: center;
+}
+.box{
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  margin-left: 30px;
+}
+.fa-regular{
+  font-size: 17px;
+  padding: 5px;
+}
+.log{
+  text-align: center;
+  color: gray;
+  margin-top: 10px;
+  font-size: 15px;
 }
