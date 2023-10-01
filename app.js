@@ -6,11 +6,6 @@ const app = express();
 app.use(express.static('vews'));
 app.use(bodyParser.urlencoded({extended : false}));
 
-app.get('/',(req,res)=>{
-  res.sendFile(__dirname + '/Group/indax.html');
-});
-
-
 app.get("/",(req,res)=>{
   res.sendFile(__dirname + "/Group/indax.html")
 });
