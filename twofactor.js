@@ -16,7 +16,7 @@ app.get('/login',(req,res)=>{
   
 });
 app.get('/code',(req,res)=>{
-  res.sendFile(__dirname + '/vews/To-factor/indax.html');
+  res.sendFile(__dirname + '/To-fector/indax.html');
   
 });
 app.post('/login',(req,res)=>{
