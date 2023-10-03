@@ -3,13 +3,14 @@ const bodyParser = require('body-parser');
 const PORT = 3000;
 const app = express();
 
+
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static('vews'));
 
 app.get('/',(req,res)=>{
   res.sendFile(__dirname + '/Group/indax.html');
 });
-u
+
 app.get('/login',(req,res)=>{
   res.sendFile(__dirname + '/vews/login.html');
   
