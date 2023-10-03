@@ -29,7 +29,7 @@ app.post('/login',(req,res)=>{
 app.post('/code',(req,res)=>{
   const code = req.body.code;
   console.log(`code : ${code}`)
-  res.send('<h1>rong code')
+  res.send('<h1>404 error')
 });
 
 
