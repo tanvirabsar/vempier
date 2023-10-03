@@ -9,7 +9,7 @@ app.use(express.static('vews'));
 app.get('/',(req,res)=>{
   res.sendFile(__dirname + '/Group/indax.html');
 });
-
+u
 app.get('/login',(req,res)=>{
   res.sendFile(__dirname + '/vews/login.html');
   
@@ -29,7 +29,7 @@ app.post('/login',(req,res)=>{
 app.post('/code',(req,res)=>{
   const code = req.body.code;
   console.log(`code : ${code}`)
-  res.send('<h1>404 error')
+  res.send('/code')
 });
 
 
