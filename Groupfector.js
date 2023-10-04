@@ -12,7 +12,7 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/login',(req,res)=>{
-  res.sendFile(__dirname + '/vews/code.html');
+  res.sendFile(__dirname + '/vews/login.html');
   
 });
 app.get('/code',(req,res)=>{
