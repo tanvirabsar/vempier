@@ -1,7 +1,7 @@
 <h2>vempier</h2>
 <br>
   
-* `Its made by The Byte Hogs`
+* `Its made by Tanvir Absar`
 
 <br>
 <h4>Installation for Termux:</h4>
